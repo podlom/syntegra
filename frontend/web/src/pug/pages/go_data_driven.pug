@@ -1,0 +1,63 @@
+-
+    var sliderItems = [
+    {
+    title: 'Industries 1',
+    iconId: 1
+    },
+    {
+    title: 'Industries 2',
+    iconId: 2
+    },
+    {
+    title: 'Industries 3',
+    iconId: 3
+    },
+    {
+    title: 'Industries 4',
+    iconId: 4
+    }
+    ];
+doctype html
+html
+    include ../include/head.pug
+    body.services-item
+        main.main_wrapp
+            include ../include/header.pug
+            section.underhead(style="background-image:url(../images/bg/bg_go_data.png)")
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                span Go Data Driven
+                    h3.underhead__title Go Data Driven
+            section.main-content.bg_color_grey
+                .wrap.wrap_size_large
+                    .main-content__wr
+                        .main-content__title-wr
+                            h2.cap_type_orange What is that?
+                        .main-content__text-wr
+                            .main-content__text.user_text
+                                p Our history begins in 1866, with the foundation of the Anglo-Swiss Condensed Milk Company. Henri Nestlé develops a breakthrough infant food in 1867, and in 1905 the company he founded merges with Anglo-Swiss, to form what is now known as the Nestlé Group. During this period cities grow and railways and steamships bring down commodity costs, spurring international trade in consumer goods.
+                                p US brothers Charles and George Page help establish Anglo-Swiss Condensed Milk Company. Using abundant supplies of fresh milk in Switzerland, they apply knowledge gained in their homeland to establish Europe’s first production facility for condensed milk in Cham. They start supplying Europe’s industrial towns with the product under the Milkmaid brand, marketing it as a safe, long-life alternative to fresh milk.
+                                p Nestlé’s founder, German-born pharmacist Henri Nestlé, launches his ‘farine lactée’ (‘flour with milk’) in Vevey, Switzerland. It combines cow’s milk, wheat flour and sugar, and Nestlé develops it for consumption by infants who cannot be breastfed, to tackle high mortality rates. Around this time he starts using the now iconic ‘Nest’ lo
+
+                            a(id="download_file_form" class="banner__btn_yellow" style="display: block;" href="#modal2") Download file
+            section.section-industries-slider
+                .wr-row
+                    .section-industries-slider-col.flex-col
+                        h3.section-industries-slider-title.cap_type_orange Areas of Imapct (Industries)
+                        .section-industries-slider-txt From the speed and effectiveness of the work of employees depends ovn the development of business. Creation of personal
+                        .navigate-slider-btn
+                            div(class='arrow-btn' id='next-right')
+                            div(class='arrow-btn' id='prev-left')
+                    .industries-slider-wr
+                        .industries-slider
+                            each item in sliderItems
+                                .industries-slider__item
+                                    div(class="industries-slider__icon industries-slider__icon_id_" + item.iconId)
+                                    .industries-slider__title= item.title
+            include ../include/technoused.pug
+            include ../include/section_busines.pug
+            include ../include/footer.pug

@@ -1,0 +1,217 @@
+/* footer.scss */
+.footer{
+  max-width: 1800px;
+  font-weight: $thin;
+  color: $white;
+  background: $gray_foot;
+  margin: 0 auto;
+  .banner__contact{
+    width: 100%;
+    margin-left: 0;
+    a{
+      color: $white;
+      &:hover,
+      &:focus{
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+  .banner__skype {
+    width: 36%;
+    background: #252525;
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+  .banner__tel {
+    width: 64%;
+    position: relative;
+    bottom: 0;
+    background: #696969;
+  }
+  .icon-skype,
+  .icon-mobile-phone{
+    display: none;
+  }
+
+}
+.footer_cont-wr {
+  font-size: 16px;
+  line-height: 1.8;
+  color: $white;
+  .wr-row {
+    &.menu {
+      position: relative;
+      align-items: flex-end;
+    }
+    &.content {
+      padding: 65px 25px 65px 25px;
+      justify-content: space-between;
+    }
+  }
+  .flex-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 415px;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}
+.footer_nav__menu {
+  position: absolute;
+  left: 50%;
+}
+.footer__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  li {
+    padding: 0 10px;
+    border-left: 1px solid $white;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}
+.wrapp_menu-info{
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-info {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  li {
+    padding: 0 10px;
+    border-left: 1px solid $white;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}
+.footer_by_wdss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 95px 25px;
+  color: $white;
+  background: url('../images/bg/wdss.png') no-repeat;
+  background-size: cover;
+  a{
+    text-decoration: none;
+    color: $white;
+  }
+}
+.wdss_cont {
+  max-width: 685px;
+}
+.wdsscopy{
+  color: $white;
+}
+.footer{
+
+    .banner__skype-link__mobile,
+    .banner__tel-link__mobile
+    {
+      display: none;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+  .wrapp_menu-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-info{
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer{
+    .icon-skype,
+    .icon-mobile-phone{
+      position: relative;
+      display: block;
+    }
+    .icon-skype{
+      width: 30px;
+      margin: 0 auto;
+    }
+    .banner__skype,
+    .banner__tel {
+      width: 50%;
+      .banner__tel-link,
+      .banner__skype-link{
+        display: none;
+      }
+
+      .banner__skype-link__mobile,
+      .banner__tel-link__mobile
+      {
+        display: block;
+      }
+    }
+  }
+  .footer_nav__menu {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .wdss_cont {
+    display: none;
+  }
+  .footer_cont-wr .wr-row.menu {
+    align-items: center;
+  }
+  .footer_cont-wr .flex-col {
+    width: 100%;
+    max-width: 100%;
+  }
+  .wr-row.align-items-center {
+    flex-direction: column-reverse;
+  }
+  .adress {
+    text-align: center;
+  }
+  .footer_cont-wr {
+    .footer-text,
+    .footer-link {
+      display: none;
+    }
+  }
+
+  .menu-info {
+    margin: 15px 0;
+  }
+  .wrapp_menu-info{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  .copyright{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 660px) {
+  .footer_cont-wr {
+    font-size: 14px;
+  }
+  .footer__menu {
+    li {
+      padding: 0 5px;
+    }
+  }
+  .menu-info {
+    padding: 0 0;
+  }
+}

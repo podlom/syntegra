@@ -1,0 +1,60 @@
+-
+    var visualItems = [
+    {
+    title: 'For Analysts',
+    text: 'Quickly move from information to action. Connect to hundreds of sources, easily convert them to the desired format and create beautiful reports in minutes.'
+    },
+    {
+    title: 'For business',
+    text: 'Monitor what is happening. View dashboards in a browser or on your phone, receive notifications of data changes, and drill down reports. Your data is always at your disposal.'
+    },
+    {
+    title: 'For IT Professionals',
+    text: 'Simplify management, enforce compliance and protect data, providing users with access to important information that they need.'
+    },
+    {
+    title: 'For developers',
+    text: 'Relive your applications. Easily add interactive visual elements to them based on data and create interesting high quality reports for any device.'
+    }
+    ];
+doctype html
+html
+    include ../include/head.pug
+    body.services-item.go-visual-page
+        main.main_wrapp
+            include ../include/header.pug
+            section.underhead(style="background-image:url(../images/bg/bg_go_visual.png)")
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                span Go Visual
+                    h3.underhead__title Go Visual
+            section.section_content_top.bg_color_grey
+                .wrapp.wr-content_top
+                    h2.cap_type_orange Microsoft Power BI
+                    .subtitle_cap Go from information to action in minutes. Any data - anywhere and as you like. All in one presentation.
+            section.main-content
+                .wrap.wrap_size_large
+                    .main-content__wr
+                        .main-content__title-wr
+                            h2.cap_type_orange What is Power BI?
+                        .main-content__text-wr
+                            .main-content__text.user_text
+                               p Power BI is a set of business intelligence tools for obtaining important data in an organization. Connect to hundreds of sources of information, simplify its processing and dynamic analysis.
+                               p Create great reports and publish them for users of your organization who can work with them in the browser and on mobile devices. Personalized dashboards with a unique full overview of the company's situation are now available to everyone. You can easily scale the solution with built-in management and security features throughout the organization.
+            section.section_service-go-visual.bg_color_grey
+                .wr-section_cont
+                    h2.cap_type_orange Power BI and you
+                    .subtitle_cap From the speed and effectiveness of the work of employees depends ovn the development of business. Creation of personal
+                .block_item-services
+                    each item in visualItems
+                        .item-services__go-visual
+                            a(href="#").item-services__link
+                                .item-services__wrapp
+                                    .item-services__go-visual-cap= item.title
+                                    .item-services__go-visual_info= item.text
+            include ../include/section_busines.pug
+            include ../include/footer.pug

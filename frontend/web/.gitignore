@@ -1,0 +1,9 @@
+bower_components/*
+node_modules/*
+.idea/
+*.log
+*.zip
+*.rar
+*.mp4
+css/style.min.css.map
+package-lock.json

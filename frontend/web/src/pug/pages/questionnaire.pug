@@ -1,0 +1,55 @@
+doctype html
+html
+    include ../include/head.pug
+    body.questionnaire-page
+        main.main_wrapp
+            include ../include/header.pug
+            section.underhead-question.bg_color_grey
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                span My first online surveyv
+                    .underhead-question_wr
+                        h3.underhead-question__title.cap_type_orange My first online survey
+            section.section-form
+                form.form-question
+                    .section-form__form
+                        .section-form-title Professional orientation?
+                        .section-form-txt Once again, I will touch on your education and say that it would be better if it was higher. Immediately, there is another important point: your sphere of activity
+                        .wr-select
+                            select(id="section-form__select")
+                                option Financial service providers, also called financial advisors
+                                option Financial service providers, also called financial advisors2
+                                option Financial service providers, also called financial advisors3
+                    .section-form__form
+                        .section-form-title Professional orientation?
+                        .section-form-txt Once again, I will touch on your
+
+                        input(type="radio" name="professional orientation" id="1").radio
+                        label(for='1') Financial service providers
+                        br
+                        input(type="radio" name="professional orientation" id="2").radio
+                        label(for='2') Financial service
+                        br
+                        input(type="radio" name="professional orientation" id="3").radio
+                        label(for='3') Financial service providers, also called
+                        br
+                    .section-form__form
+                        .section-form-title Professional orientation?
+                        .section-form-txt Once again, I will touch on your
+
+                        input(type="checkbox" name="professional orientation" id="checkbox1").checkbox
+                        label(for='checkbox1') Financial service providers
+                        br
+                        input(type="checkbox" name="professional orientation" id="checkbox2").checkbox
+                        label(for='checkbox2') Financial service providers
+                        br
+                        input(type="checkbox" name="professional orientation" id="checkbox3").checkbox
+                        label(for='checkbox3') Financial service providers
+                        br
+                    button.banner__btn_yellow next
+            include ../include/section_busines.pug
+            include ../include/footer.pug

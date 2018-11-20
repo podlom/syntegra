@@ -1,0 +1,33 @@
+doctype html
+html
+    include ../include/head.pug
+    body.blog-item-page
+        main.main_wrapp
+            include ../include/header.pug
+            section.underhead(style="background-image: url(/images/bg/bg_blog_item.jpg)")
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                a(href="/") Blog
+                            li
+                                span Core Business Processes in Finance
+                    h3.underhead__title Core Business Processes in Finance
+                .underhead__date-wr
+                    .wrap.wrap_size_large
+                        .underhead__date 12 / 12 / 18
+            section.main-content
+                .wrap.wrap_size_large
+                    .main-content__wr
+                        .main-content__title-wr
+                            h2.cap_type_orange Research
+                        .main-content__text-wr
+                            .main-content__text.user_text
+                                p.
+                                    Financial service providers, also called financial advisors or financial planners, assist individuals, families and organizations in making investment decisions. Although financial services may seem sophisticated and complex, planners are essentially salespeople, and the core business processes in financial services closely resemble other sales-oriented businesses. Customer service is at the heart of financial planning, as a significant portion of an advisor's daily routine consists of personal contact with clients and financial institutions.
+                                p.
+                                    Like all high-level salespeople, financial advisors must be fully versed in the features, benefits and limitations of the products available to their clients. Planners assist clients in purchasing products such as annuities, life insurance, money market funds, college savings plans, equity-based mutual funds, and other instruments designed to grow wealth or ensure a comfortable retirement. Advisors must keep abreast of new developments and products in the industry, and are required to attend certified educational courses on a regular basis in order to maintain their licenses.
+            include ../include/section_busines.pug
+            include ../include/footer.pug

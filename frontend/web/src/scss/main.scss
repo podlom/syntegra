@@ -1,0 +1,20 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+@import '../../node_modules/animate.css/animate.min.css';
+
+@import 'core/vars';
+@import 'core/mixins';
+@import 'core/common';
+@import 'core/user_text';
+@import 'core/icomoon';
+
+@import 'modules/header';
+@import 'modules/footer';
+@import 'modules/homepage';
+@import 'modules/partnersPage';
+@import 'modules/content';
+@import 'modules/blog';
+@import 'modules/services';
+@import 'modules/company';
+@import 'modules/questionnaire';
+

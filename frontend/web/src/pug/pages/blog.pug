@@ -1,0 +1,35 @@
+doctype html
+html
+    include ../include/head.pug
+    body.blog-page
+        main.main_wrapp
+            include ../include/header.pug
+            section#particles-blog.underhead
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                span Blog
+                    h3.underhead__title Blog
+            .blog-content
+                include ../include/blog-items.pug
+                include ../include/blog-items.pug
+            .blog-more-wr
+                a.btn(href="#") More
+            section.tr-u-bis
+                .wrap.wrap_size_large
+                    .tr-u-bis__wr
+                        .tr-u-bis__inner
+                            .tr-u-bis__title-wr
+                                h3.tr-u-bis__title Transform your Business with Us
+                            .tr-u-bis__txt-n-button
+                                .tr-u-bis__txt.
+                                    From the speed and effectiveness of the work of employees depends ovn the development of business. Creation of personal knowledge base, storage of documents and ensuring their safety
+                                .tr-u-bis__button
+                                    a.btn(href="#") Full Article
+            include ../include/services_slider
+            include ../include/partners.pug
+            include ../include/section_busines.pug
+            include ../include/footer.pug

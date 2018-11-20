@@ -1,0 +1,145 @@
+-
+    var header__menu = [
+    {
+        title: 'Company',
+        url:    '#'
+    },
+    {
+    title: 'Solutions',
+    url:    '#'
+    },
+    {
+    title: 'Consulting',
+    url:    '#'
+    },
+    {
+    title: 'Case Studies',
+    url:    '#'
+    },
+    {
+    title: 'Blog',
+    url:    '#'
+    },
+    {
+    title: 'On-line Shop',
+    url:    '#'
+    },
+    {
+    title: 'Contact Us',
+    url:    '#'
+    }
+    ]
+header.header
+    div.header__wrap
+        div.header__logo
+            a(href="/")
+                img(src="/images/logo_header.png")
+        nav.header__nav-menu
+            ul.header__menu
+                each item,index in header__menu
+                    li
+                        a(href=item.url)= item.title
+                        if index == 1
+                            .dropdown-menu
+                                .menu-col-1
+                                    ul.dropdown-menu-services
+                                        li
+                                            a(href="#") go data driven
+                                            ul.dropdown-menu-services-item
+                                                li
+                                                    a(href="#") industial1
+                                                li
+                                                    a(href="#") industial2
+                                                li
+                                                    a(href="#") industial3
+                                        li
+                                            a(href="#") go serverless
+                                            ul.dropdown-menu-services-item
+                                                li
+                                                    a(href="#") industial4
+                                                li
+                                                    a(href="#") industial5
+                                                li
+                                                    a(href="#") industial3
+                                        li
+                                            a(href="#") go visual
+                                            ul.dropdown-menu-services-item
+                                                li
+                                                    a(href="#") industial6
+                                                li
+                                                    a(href="#") industial7
+                                                li
+                                                    a(href="#") industial3
+
+                                .menu-col-2
+                                .menu-col-3
+                                    .ddmenu-it-img(style='background-image: url("../images/bg/bg_go_data.png")')
+
+                                    .ddmenu-it-img(style='background-image: url("../images/bg/serveless.png")')
+
+                                    .ddmenu-it-img(style='background-image: url("../images/bg/bg_go_visual.png")')
+
+                                    .ddmenu-it-img(style='background-image: url("../images/bg/bg_go_data.png")')
+
+
+
+
+        .header__wr-logo
+            .header__get-in_touch GET IN TOUCH
+                .banner__skype syntegra.ua
+            .header__logo_microsoft
+                img(src="/images/microsoft.png")
+                .banner__tel
+                    a(href="tel:+38 044 364 7779") +38 044 364 7779
+
+    .header-wr__mobile
+        .mobile__header-logo
+            a(href="/")
+                img(src="/images/logo_header.png")
+        .wr-left-block
+            .mobile-icon__menu
+                .icon-get-in-tach
+                .icon-skype
+                    a(href="skype:syntegra.ua")
+                .icon-mobile-phone
+                    a(href="tel:+38 044 364 7779")
+            .burger-menu
+                .bar.bar-icon-one
+                .bar.bar-icon-two
+                .bar.bar-icon-three
+nav.mobile__header_nav-menu
+    .mobile__header_logo
+        img(src="/images/mob_logo.png")
+    ul.dropdown-menu-services__mobile
+        li
+            a(href="#") go data driven
+            ul.two-drop-down-menu
+                li
+                    a(href="#") industial1
+                li
+                    a(href="#") industial2
+                li
+                    a(href="#") industial3
+        li
+            a(href="#") go serverless
+            ul.two-drop-down-menu
+                li
+                    a(href="#") industial1
+                li
+                    a(href="#") industial2
+                li
+                    a(href="#") industial3
+        li
+            a(href="#") go visual
+            ul.two-drop-down-menu
+                li
+                    a(href="#") industial1
+                li
+                    a(href="#") industial2
+                li
+                    a(href="#") industial3
+    ul.mobile_header__menu
+        each item in header__menu
+            li
+                a(href=item.url)= item.title
+

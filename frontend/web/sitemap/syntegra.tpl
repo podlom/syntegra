@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>{host}ru/page/o-nas</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/page/partnery</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/page/uslugi</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/page/chastnym-klientam</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/page/malomu-biznesu</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/page/korporativnym-klientam</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/page/finansovym-organizaciyam</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}uk/page/privatnim-kliientam</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}uk/page/malomu-biznesu-2</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}uk/page/korporativnim-kliientam</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/page/finansovim-organizaciyam</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}en/page/private-customers</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}en/page/small-business</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}en/page/corporative-clients</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}en/page/financial-institutions</loc>
+	<lastmod>2017-02-13</lastmod>
+</url>
+<url>
+	<loc>{host}ru/news/sud-razreshil-mau-ne-vyplachivat-dolg-v-33-milliona</loc>
+	<lastmod>2017-02-16</lastmod>
+</url>
+<url>
+	<loc>{host}ru/news/po-dannym-nbu-bolshe-vsego-kreditov-v-2016-godu-banki-vydayut-predpriyatiyam-optovoy-i-roznichnoy-torgovli-kompaniyam-po-remontu-avtotransporta-pererabatyvayushchey-promyshlennosti-i-sfere-po-operaciyam-s-nedvizhimostyu</loc>
+	<lastmod>2017-02-14</lastmod>
+</url>
+<url>
+	<loc>{host}ru/news/kakie-kompanii-realnogo-sektora-ostayutsya-klientami-finansovoy-sistemy</loc>
+	<lastmod>2017-02-14</lastmod>
+</url>
+<url>
+	<loc>{host}ru/news/fond-garantirovaniya-planiruet-prodat-aktivy-bankov-bankrotov-na-25-milliarda</loc>
+	<lastmod>2017-02-14</lastmod>
+</url>
+</urlset>

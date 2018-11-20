@@ -1,0 +1,92 @@
+-
+    var funcreqEls = [
+        {
+            index: 1,
+            title: 'Reporting system',
+            text: 'Develop and deploy in a convenient place for you with the help of a single'
+        },
+        {
+            index: 2,
+            title: 'Integration of the system with other services',
+            text: 'Develop and deploy in a convenient place for you with the help of a single'
+        },
+        {
+            index: 3,
+            title: 'Mobile Access',
+            text: 'Develop and deploy in a convenient place for you with the help of a single. Develop and deploy in a convenient place for you with the help of a single. Develop and deploy in a convenient place for you with the help of a single'
+        },
+        {
+            index: 4,
+            title: 'Fast data exchange',
+            text: 'Develop and deploy in a convenient place for you with the help of a single'
+        },
+        {
+            index: 5,
+            title: 'Fast data exchange',
+            text: 'Develop and deploy in a convenient place for you with the help of a single. Develop and deploy in a convenient place for you with the help of a single'
+        },
+    ];
+doctype html
+html
+    include ../include/head.pug
+    body.partners-item-page
+        main.main_wrapp
+            include ../include/header.pug
+            section.underhead-partner
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                a(href="/") Case Studies
+                            li
+                                span Ferrero
+                    .underhead-partner__cont
+                        .underhead-partner__cont-wr
+                            .underhead-partner__imgwr
+                                img(src="/images/content/partners/partner_2.png")
+                            .underhead-partner__txt
+                                h3  Description of the problem:
+                                p Ferrero Ukraine is an international confectionery company with a wide geography of representative offices throughout the country. In order to improve the quality of control over their work, the company has a need to modernize its reporting system for regional managers, a system for analyzing sales volumes by areas, trading agents, products.
+            section.funcreq
+                .wrap.wrap_size_large
+                    .funcreq__wr
+                        .funcreq__cap-bl
+                            h3.funcreq__cap.cap_type_orange Functional requirements
+                        .funcreq__cont
+                            .funcreq__cont-wr
+                                each item in funcreqEls
+                                    .funcreq__el
+                                        .funcreq__el-index= item.index
+                                        .funcreq__el-title= item.title
+                                        .funcreq__el-text= item.text
+            section.decision
+                .wrap.wrap_size_middle
+                    .decision__wr
+                        .decision__titles
+                            h3.decision__cap.cap_type_orange Decision
+                            h6.decision__subtitle Portal for working with financial documents
+                        .decision__cont
+                            .decision__cont-col
+                                ul
+                                    li Creating orders and invoice accounts
+                                    li Reducing the time for report generation
+                                    li Access to data on stock balances in stock
+                            .decision__cont-col
+                                ul
+                                    li Mobile access to the service
+                                    li Compliance with security policies
+                                    li An accessible and understandable user interface
+            include ../include/technoused.pug
+            section.other-partners
+                .other-partners__el
+                    a(href="#")
+                        .other-partners__img-wr
+                            img(src="/images/content/partners/partner_in_it_1.png")
+                .other-partners__el
+                    a(href="#")
+                        .other-partners__img-wr
+                            img(src="/images/content/partners/partner_in_it_2.png")
+            include ../include/section_busines.pug
+            include ../include/footer.pug

@@ -1,0 +1,260 @@
+.blog-page{
+  .underhead{
+    height: 400px;
+    background-image: url("../images/bg/bg_blog.jpg");
+  }
+  .section_slider{
+    margin-top: -70px;
+  }
+  .section_partners__title{
+    color: $dark_yellow;
+  }
+}
+.spec-blog-item{
+  max-width: 1310px;
+  margin: 0 auto;
+  padding-top: 75px;
+  padding-left: 30px;
+}
+.spec-blog-item__title-wr{
+  max-width: 760px;
+}
+.spec-blog-item__title{
+  font-size: 60px;
+  line-height: 1.1;
+}
+.spec-blog-item__date{
+  color: $dark_yellow;
+  font-weight: $medium;
+  margin-bottom: 20px;
+}
+.blog-content{
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+}
+.spec-blog-item-outer{
+  .wrap_size_large{
+    background: $smoky;
+    padding-bottom: 180px;
+  }
+}
+.tr-u-bis__txt-n-button,
+.spec-blog-item__txt-n-button{
+  display: flex;
+  justify-content: space-between;
+}
+.tr-u-bis__txt,
+.spec-blog-item__txt{
+  max-width: 500px;
+  padding-right: 20px;
+}
+.tr-u-bis__button,
+.spec-blog-item__button{
+  .btn{
+    width: 210px;
+  }
+}
+.normal-blog-items{
+  max-width: 1310px;
+  margin: 0 auto;
+}
+.normal-blog-items__inner{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -25px;
+}
+.normal-blog-items__el{
+  width: 33.33%;
+  padding: 0 25px;
+}
+.normal-blog-items__el-img-wr{
+  display: block;
+  overflow: hidden;
+  height: 235px;
+  position: relative;
+  &:hover{
+    .normal-blog-items__el-img{
+      transform: scale(1.1);
+    }
+  }
+}
+.normal-blog-items__el-img{
+  @extend .bgimg;
+  height: 100%;
+  transition: all .7s;
+}
+.normal-blog-items__el-date{
+  color: $white;
+  font-weight: $bold;
+  font-size: 14px;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  z-index: 1;
+}
+.normal-blog-items__el-title{
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: block;
+  height: 66px;
+  &:hover{
+    text-decoration: none;
+  }
+  h2{
+    line-height: 33px;
+    margin: 0;
+  }
+}
+.normal-blog-items__cont{
+  padding: 30px 30px 50px;
+  position: relative;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}
+.blog-section{
+  margin-bottom: 80px;
+}
+.normal-blog-items-outer{
+  margin-top: -80px;
+}
+.normal-blog-items__el-txt{
+  font-size: 14px;
+  color: $gray2;
+  height: 76px;
+  overflow: hidden;
+}
+.normal-blog-items__el-btn-wr{
+  text-align: center;
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  width: 100%;
+  .btn{
+    width: 210px;
+  }
+}
+.tr-u-bis{
+  background: $smoky;
+  padding: 60px 0 100px;
+}
+.tr-u-bis__wr{
+  max-width: 1310px;
+  margin: 0 auto;
+}
+.tr-u-bis__title{
+  font-size: 60px;
+}
+.blog-item-page{
+  .underhead__title{
+    background: none;
+    text-align: center;
+    display: block;
+    height: auto;
+    padding: 180px 0 0 0;
+    &:before{
+      display: none;
+    }
+  }
+}
+.underhead__date-wr{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.underhead__date{
+  color: $white;
+  font-weight: $bold;
+  font-size: 18px;
+  background: $dark_yellow;
+  text-align: center;
+  width: 180px;
+  height: 90px;
+  line-height: 90px;
+}
+.blog-more-wr{
+  text-align: center;
+  margin-bottom: 80px;
+  padding-top: 50px;
+  .btn{
+    width: 265px;
+  }
+}
+#particles-blog{
+  position: relative;
+  canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+.social-section{
+  max-width: 450px;
+}
+.enter-user{
+  text-align: center;
+  font-size: 18px;
+}
+.wr-icon{
+  display: flex;
+  margin: 25px 0;
+}
+.item-social{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 33.3%;
+  img{
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1400px){
+  .blog-item-page .underhead__title{
+    padding: 90px 0 0 0;
+    font-size: 36px;
+    line-height: 1.1;
+  }
+}
+@media screen and (max-width: 991px){
+  .tr-u-bis__title,
+  .spec-blog-item__title{
+    font-size: 36px;
+  }
+  .normal-blog-items__el{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .blog-section{
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 767px){
+  .spec-blog-item,
+  .tr-u-bis{
+    padding-left: 0;
+    text-align: center;
+  }
+  .spec-blog-item__txt-n-button,
+  .tr-u-bis__txt-n-button{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tr-u-bis__txt,
+  .spec-blog-item__txt{
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .tr-u-bis__title,
+  .spec-blog-item__title{
+    font-size: 24px;
+  }
+  .underhead__date{
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+  }
+}

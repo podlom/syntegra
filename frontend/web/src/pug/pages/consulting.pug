@@ -1,0 +1,49 @@
+-
+    var consultingList = [
+        {
+            title: "Financial Services",
+            text: "Azure offers more than 100 services, including comprehensive tools"
+        },
+        {
+            title: "E-commerce Services",
+            text: "Develop and deploy in a convenient place for you with the help of a single"
+        },
+        {
+            title: "Metals & Alloy Distribution",
+            text: "Create intelligent applications using powerful data processing and artificial intelligence services."
+        },
+        {
+            title: "Media & Entertainment",
+            text: "Azure offers more than 100 services, including comprehensive tools"
+        },
+        {
+            title: "Wholesale Distribution",
+            text: "Create intelligent applications using powerful data processing and artificial intelligence services."
+        },
+    ];
+doctype html
+html
+    include ../include/head.pug
+    body.consulting-page
+        main.main_wrapp
+            include ../include/header.pug
+            section.underhead
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                span Consulting
+                    h3.underhead__title Consulting
+            section.consulting-list
+                .wrap.wrap_size_large
+                    .consulting-list__wr
+                        each item, index in consultingList
+                            .consulting-list__item
+                                a(href="#")
+                                    div(class="consulting-list__icon consulting-list__icon_index_" + index)
+                                    h4.consulting-list__title= item.title
+                                    .consulting-list__text= item.text
+            include ../include/section_busines.pug
+            include ../include/footer.pug

@@ -1,0 +1,113 @@
+-
+    var partnersCats = [
+        'E-commerce',
+        'Financial',
+        'Metals & Alloy',
+        'Media & Entertainment',
+        'Wholesale',
+        'Go Data Driven',
+        'Go Serverless',
+        'Metals & Alloy',
+        'Financial',
+        'Wholesale',
+        'Go Data Driven',
+        'Media & Entertainment',
+    ];
+
+    var partners = [
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_1.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_2.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_3.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_4.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_5.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_1.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_2.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_3.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_4.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_5.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_1.png'
+        },
+        {
+            title: 'E-commerce Services',
+            text: 'Develop and deploy iмn a convenient place for you with the help of a single',
+            image: 'partner_2.png'
+        },
+    ];
+doctype html
+html
+    include ../include/head.pug
+    body.partners-page
+        main.main_wrapp
+            include ../include/header.pug
+            section.underhead
+                .wrap.wrap_size_large
+                    .breadcrumbs
+                        ul
+                            li
+                                a(href="/") Home
+                            li
+                                span Case Studies
+                    h3.underhead__title.wow.fadeInLeft Case Studies
+            section.partners-content
+                .wrap.wrap_size_large
+                    .partners-cats
+                        ul.partners-cats__wr
+                           each category in partnersCats
+                               li
+                                    a(href="#")= category
+                    .partners-list
+                        each partner in partners
+                            a.partner-item(href="#")
+                                .partner-item__img-wr
+                                    img(src="/images/content/partners/" + partner.image)
+                                .partner-item__info
+                                    .partner-item__info-wr
+                                        .partner-item__title= partner.title
+                                        .partner-item__text= partner.text
+                    .partners-btn-wr
+                        a.btn(href="#") Show more
+            include ../include/section_busines.pug
+            include ../include/footer.pug

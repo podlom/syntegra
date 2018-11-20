@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?1i6lfp');
+  src:  url('../fonts/icomoon/icomoon.eot?1i6lfp#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon/icomoon.ttf?1i6lfp') format('truetype'),
+  url('../fonts/icomoon/icomoon.woff?1i6lfp') format('woff'),
+  url('../fonts/icomoon/icomoon.svg?1i6lfp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icomoon{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  @extend .icomoon;
+}
+
+//.icon-up-arrow:before {
+//  content: "\e900";
+//}
+//.icon-down-arrow:before {
+//  content: "\e901";
+//}
+//.icon-close-button:before {
+//  content: "\e902";
+//}
+//.icon-icon-get-in-touch:before {
+//  content: "\e903";
+//}
+//.icon-icon-mobile-phone:before {
+//  content: "\e904";
+//}
+//.icon-icon-skype:before {
+//  content: "\e905";
+//}
+//.icon-bug:before {
+//  content: "\e906";
+//}
+//.icon-lock:before {
+//  content: "\e907";
+//}
+//.icon-monitor:before {
+//  content: "\e908";
+//}
+//.icon-shield:before {
+//  content: "\e909";
+//}
+//.icon-car:before {
+//  content: "\e90a";
+//}
+//.icon-dollar:before {
+//  content: "\e90b";
+//}
+//.icon-left-arrow:before {
+//  content: "\e90c";
+//}
+//.icon-right-arrow:before {
+//  content: "\e90d";
+//}
+//.icon-telega:before {
+//  content: "\e90e";
+//}
+//.icon-cart:before {
+//  content: "\e90f";
+//}
+//.icon-finance:before {
+//  content: "\e910";
+//}
+//.icon-hanger:before {
+//  content: "\e911";
+//}
+//.icon-tv:before {
+//  content: "\e912";
+//}
+//.icon-wheelbarrow:before {
+//  content: "\e913";
+//}
+//
+
+.icon-Icon-Square-Ex:before {
+  content: "\e900";
+  color: #ed8c0f;
+}
+.icon-List:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-Mail:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-Mic:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-Phone:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-up-arrow:before {
+  content: "\e905";
+}
+.icon-down-arrow:before {
+  content: "\e906";
+}
+.icon-close-button:before {
+  content: "\e907";
+}
+.icon-icon-get-in-touch:before {
+  content: "\e908";
+}
+.icon-icon-mobile-phone:before {
+  content: "\e909";
+}
+.icon-icon-skype:before {
+  content: "\e90a";
+}
+.icon-bug:before {
+  content: "\e90b";
+}
+.icon-lock:before {
+  content: "\e90c";
+}
+.icon-monitor:before {
+  content: "\e90d";
+}
+.icon-shield:before {
+  content: "\e90e";
+}
+.icon-car:before {
+  content: "\e90f";
+}
+.icon-dollar:before {
+  content: "\e910";
+}
+.icon-left-arrow:before {
+  content: "\e911";
+}
+.icon-right-arrow:before {
+  content: "\e912";
+}
+.icon-telega:before {
+  content: "\e913";
+}
+.icon-cart:before {
+  content: "\e914";
+}
+.icon-finance:before {
+  content: "\e915";
+}
+.icon-hanger:before {
+  content: "\e916";
+}
+.icon-tv:before {
+  content: "\e917";
+}
+.icon-wheelbarrow:before {
+  content: "\e918";
+}
